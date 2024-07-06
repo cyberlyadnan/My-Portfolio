@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "ForntEnd Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Freelancer",
     icon: creator,
   },
 ];
@@ -84,10 +84,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MySql",
     icon: mysql,
