@@ -1,110 +1,28 @@
-# Portfolio of Adnan Ahmad
+<h1 align="center">Hi 👋, I'm Adnan Ahmad</h1>
+<h3 align="center">A passionate frontend developer from India</h3>
 
-Welcome to my portfolio! This project showcases my skills and projects as a frontend React developer.
+- 🔭 I’m currently working on [Netflix GPT](https://netflixgpt-17f5b.web.app/)
 
-## Table of Contents
+- 🌱 I’m currently learning **React, Nextjs, AWS**
 
-- [About](#about)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- 🤝 I’m looking for help with [My Portfolio](https://my-portfolio-7c5de.web.app/)
 
-## About
+- 👨‍💻 All of my projects are available at [https://my-portfolio-7c5de.web.app/](https://my-portfolio-7c5de.web.app/)
 
-This is my personal portfolio website where I highlight my skills, projects, and experience as a frontend developer. It's built using React and styled with Tailwind CSS. Feel free to explore my work and get in touch if you have any questions or opportunities!
+- 📝 I regularly write articles on [https://mcommercehub.com/](https://mcommercehub.com/)
 
-## Features
+- 💬 Ask me about **React, Python , Html, CSS, Javascript**
 
-- Responsive design
-- Interactive UI components
-- Project showcase with descriptions and links
-- Contact form
-- Smooth animations
+- 📫 How to reach me **adnanahmad9334@gmail.com**
 
-## Technologies
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/adnanahmad9334" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adnanahmad9334" height="30" width="40" /></a>
+<a href="https://instagram.com/cyberlyadnan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cyberlyadnan" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/cyberlyadnan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="cyberlyadnan" height="30" width="40" /></a>
+</p>
 
-- React
-- Tailwind CSS
-- React Router
-- React Hooks (useState, useEffect)
-- Context API
-- Firebase Hosting
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://materializecss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.qt.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
 
-## Setup
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/yourusername/portfolio.git
-    ```
-
-2. **Navigate to the project directory**:
-
-    ```bash
-    cd portfolio
-    ```
-
-3. **Install dependencies**:
-
-    ```bash
-    npm install
-    ```
-
-4. **Start the development server**:
-
-    ```bash
-    npm run dev
-    ```
-
-The app should now be running on `http://localhost:3000`.
-
-## Usage
-
-Once the development server is running, you can navigate through the different sections of the portfolio:
-
-- **Home**: Introduction and brief overview of who I am.
-- **About**: Detailed information about my background and skills.
-- **Projects**: Showcase of my projects with descriptions and links.
-- **Contact**: Form to get in touch with me.
-
-## Contributing
-
-I appreciate feedback and contributions! If you have any suggestions or improvements, please open an issue or submit a pull request.
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3. **Make your changes and commit them**:
-
-    ```bash
-    git commit -m "Add your message"
-    ```
-
-4. **Push to the branch**:
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5. **Open a pull request**.
-
-## Contact
-
-Feel free to reach out if you have any questions or opportunities:
-
-- Email: [cyberlyadnan@gmail.com](mailto:your-email@example.com)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adnanahmad9334/)
-- Twitter: [Leetcode](https://leetcode.com/u/cyberlyadnan/)
-
----
-
-Thank you for visiting my portfolio!
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=cyberlyadnan&show_icons=true&locale=en&layout=compact" alt="cyberlyadnan" /></p>
