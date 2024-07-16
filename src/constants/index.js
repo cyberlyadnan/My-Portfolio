@@ -10,19 +10,28 @@ import {
   reactjs,
   wordpress,
   tailwind,
-  nodejs,
   mysql,
   git,
   photoshop,
   c,
   meta,
-  starbucks,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   nextjs,
+  FoodieExpress,
+  CinemaFlixGemini,
+  StreamMaster,
+  PyGameSuite,
+  SecureVault,
+  DjangoMart,
+  redux,
+  Firebase,
+  Jest,
+  Bootstrap
+
 } from "../assets";
 
 export const navLinks = [
@@ -35,6 +44,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "technologies",
+    title: "Technologies",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,15 +55,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "Software Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "ForntEnd Engineer",
+    title: "Frontend Trainer",
     icon: backend,
   },
   {
@@ -73,10 +86,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -84,62 +93,64 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
   {
     name: "NEXT JS",
     icon: nextjs,
   },
   {
-    name: "WordPress",
-    icon: wordpress,
+    name: "Redux",
+    icon: redux,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "Photoshop",
-    icon: photoshop,
+    name: "Firebase",
+    icon: Firebase,
   },
   {
-    name: "C",
-    icon: c,
+    name: "Jest",
+    icon: Jest,
   },
+  {
+    name: "Bootstrap",
+    icon: Bootstrap,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "WordPress",
+    icon: wordpress,
+  }
+
 ];
 
 const experiences = [
+  {
+    title: "Frontend Trainer",
+    company_name: "Credible Academy",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "June 2023 - - September 2023",
+    points: [
+      "Led the creation and launch of a new curriculum for HTML, CSS, JavaScript, and React, increasing student project completions by 30%.",
+      "Created an interactive learning space with hands-on projects and coding challenges, improving student engagement and knowledge retention.",
+      "Organized workshops and webinars that attracted over 200 participants, greatly enhancing the institute's visibility and reputation.",
+    ],
+  },
   {
     title: "IT Trainer",
     company_name: "Institute Of Skills and Rural Development",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Oct 2021 - Sept 2022",
+    date: "September 2021 - September 2022",
     points: [
-      "Maintained positive, productive learning environments through exceptional classroom management.",
-      "Successfully improved network performance by updating computers with the latest software and applications",
-      "Handle the work of cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "WordPress Developer",
-    company_name: "AK Computers",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Jan 2021 - Oct 2022",
-    points: [
-      "Prepared orders to deliver excellent presentation and quality standards.",
-      "Developed excellent working knowledge of industry trends and improvements in processes.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and delivered training modules for MS Office, Photoshop, CorelDraw, HTML, CSS, Networking, and Security, boosting student performance by 25%.",
+      "Used new teaching methods like real-world case studies and practical labs, improving student understanding and application of concepts.",
+      "Mentored over 100 students, helping them with their studies and projects, leading to more successful project completions and higher exam scores.",
     ],
   },
   {
@@ -149,18 +160,17 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mar 2023 - May 2023",
     points: [
-      "Prepared range of written communications, documents and reports.",
-      "Managed complaints with calm, clear communication and problem-solving.",
-      "Developed and implemented strategic plans to expand the company's client base and drive revenue growth.",
-      "Monitored industry trends and competitor activities to identify areas for potential growth and differentiation.",
+      "Developed client interaction strategies that increased client acquisition and retention by 20%.",
+      "Performed market analysis and competitive research to find new business opportunities, resulting in targeted marketing campaigns.",
+      "Worked with different teams to improve client communication processes, boosting client satisfaction and business efficiency.",
     ],
   },
   {
-    title: "Full Stack IT Trainer",
-    company_name: "Credible Academy",
+    title: "Freelencer",
+    company_name: "Self Employed",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Ongoing",
     points: [
       "Developed and delivered comprehensive training modules covering both front-end and back-end technologies.",
       "Instructed on a wide range of topics including HTML, CSS, JavaScript and database management systems.",
@@ -199,6 +209,69 @@ const testimonials = [
 
 const projects = [
   {
+    name: "StreamMaster",
+    description:
+      "A YouTube clone with advanced features, including efficient state management, responsive design, and deployment on Google Firebase.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React-Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: StreamMaster, // Assuming you have the image saved and imported as streamMasterImage
+    source_code_link: "https://my-65a3e.web.app/",
+  },
+  {
+    name: "CinemaFlixGemini",
+    description:
+      "A Netflix clone with AI features, offering personalized movie recommendations, secure user authentication, and a modern responsive UI.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: CinemaFlixGemini, // Assuming you have the image saved and imported as cinemaFlixGeminiImage
+    source_code_link: "https://netflixgpt-17f5b.web.app/",
+  },
+  {
+    name: "FoodieExpress",
+    description:
+      "A Swiggy clone with its features, offering a seamless and optimized food delivery experience with advanced functionalities and a responsive design.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Parcel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Jest",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: FoodieExpress,
+    source_code_link: "https://foodieexpress-abfbe.web.app/",
+  },
+  {
     name: "Wood Management Software",
     description:
       "Streamline forestry operations with efficient resource management, inventory tracking, and sustainable practices for optimized productivity and environmental stewardship.",
@@ -218,6 +291,62 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/cyberlyadnan",
+  },
+  
+  {
+    name: "DjangoMart",
+    description:
+      "A comprehensive eCommerce platform developed using Django, offering robust inventory management, secure transactions, and user-friendly interface.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLite3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: DjangoMart,
+    source_code_link: "https://github.com/cyberlyadnan/Ecommerce-With-Blog-In-Django",
+  },
+  {
+    name: "PyGame Suite",
+    description:
+      "A suite of games developed using Python and Tkinter, providing an engaging and interactive gaming experience with easy-to-use interfaces.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "green-text-gradient",
+      },
+    ],
+    image: PyGameSuite,
+    source_code_link: "https://github.com/cyberlyadnan/Snake-Game",
+  },
+  {
+    name: "SecureVault",
+    description:
+      "A secure password manager developed with Python and Tkinter, ensuring safe storage and management of passwords with a user-friendly interface.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "green-text-gradient",
+      },
+    ],
+    image: SecureVault,
+    source_code_link: "https://github.com/cyberlyadnan/Password-Manager",
   },
   {
     name: "Learning Management System",
@@ -260,7 +389,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://mcommercehub.com/",
-  },
+  }
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

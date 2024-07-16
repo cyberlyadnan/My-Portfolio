@@ -47,23 +47,37 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
       >
-        {/* I'm a skilled software developer with experience in Python and
-        JavaScript, and expertise in other technologies like html, css , wordpress etc. 
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life! */}
-        Dynamic and detail-oriented Frontend Engineer with a robust background
-        in web development, coding since high school. Proficient in HTML, CSS,
-        JavaScript, React, and Python, with hands-on experience in advanced
-        frameworks like React-Redux and Django. Adept at creating intuitive,
-        responsive, and user-centric web applications, leveraging modern
-        technologies such as Tailwind CSS and Git. Known for rapid learning and
-        adaptation, with a track record of successfully delivering diverse
-        projects from e-commerce platforms to interactive games. Currently
-        pursuing a B.Sc. in Computer Science at Aligarh Muslim University,
-        demonstrating a strong academic foundation and a relentless passion for
-        continuous learning and innovation in the tech field. Ready to bring
-        creative solutions and a fresh perspective to your team.
+        <ul>
+          <li>
+          • Frontend Software Engineer with expertise in HTML, CSS, JavaScript,
+            React.js, and related technologies.
+          </li>
+          <li>
+          • Experienced Trainer at Credible Academy and Institute of Skills and
+            Rural Development, enhancing student engagement and knowledge
+            retention.
+          </li>
+          <li>
+          • Freelancer delivering numerous WordPress websites, including LMS,
+            blogs, eCommerce, and news sites.
+          </li>
+          <li>
+          • Developer of custom software solutions, such as wood management
+            software in Python, streamlining client operations.
+          </li>
+          <li>
+          • Proven Problem Solver with a focus on delivering high-quality,
+            scalable web applications.
+          </li>
+          <li>
+          • Strong Project Management Skills demonstrated through successful
+            project completions and positive client feedback.
+          </li>
+          <li>
+          • Continuous Learner staying updated with the latest trends and
+            technologies in frontend development.
+          </li>
+        </ul>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

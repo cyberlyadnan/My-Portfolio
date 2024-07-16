@@ -20,6 +20,12 @@ import wordpress from "./tech/wordpress.png";
 import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
 import nextjs from "./tech/nextjs.png";
+import dsa from "./tech/dsa.png";
+import redux from "./tech/redux.png";
+import Bootstrap from "./tech/bootstrap.png";
+import Jest from "./tech/jest.png";
+import Firebase from "./tech/firebase.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +35,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import FoodieExpress from "./FoodieExpress.png";
+import CinemaFlixGemini from "./CinemaFlixGemini.png";
+import StreamMaster from "./StreamMaster.png";
+import SecureVault from "./SecureVault.png";
+import PyGameSuite from "./PyGameSuite.png";
+import DjangoMart from "./DjangoMart.png";
+
+
 
 export {
   logo,
@@ -43,9 +57,14 @@ export {
   c,
   photoshop,
   git,
+  dsa,
+  redux,
   html,
   javascript,
   mysql,
+  Firebase,
+  Jest,
+  Bootstrap,
   nodejs,
   reactjs,
   wordpress,
@@ -59,4 +78,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  FoodieExpress,
+  CinemaFlixGemini,
+  StreamMaster,
+  DjangoMart,
+  SecureVault,
+  PyGameSuite
 };
