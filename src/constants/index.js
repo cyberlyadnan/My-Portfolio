@@ -348,48 +348,48 @@ const projects = [
     image: SecureVault,
     source_code_link: "https://github.com/cyberlyadnan/Password-Manager",
   },
-  {
-    name: "Learning Management System",
-    description:
-      "A comprehensive platform designed to streamline training, enhance knowledge retention, and track progress effectively. With intuitive features for course creation, assessment, and analytics, it's the ideal solution for modern learning needs.",
-    tags: [
-      {
-        name: "wordpress",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "http://usaglobaleducation.com/",
-  },
-  {
-    name: "Blog Web Application",
-    description:
-      "Experience our Blog Web Application - a powerful tool to create, publish, and manage captivating content effortlessly, driving engagement and fostering community online.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "wordpress",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://mcommercehub.com/",
-  }
+  // {
+  //   name: "Learning Management System",
+  //   description:
+  //     "A comprehensive platform designed to streamline training, enhance knowledge retention, and track progress effectively. With intuitive features for course creation, assessment, and analytics, it's the ideal solution for modern learning needs.",
+  //   tags: [
+  //     {
+  //       name: "wordpress",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "html",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "http://usaglobaleducation.com/",
+  // },
+  // {
+  //   name: "Blog Web Application",
+  //   description:
+  //     "Experience our Blog Web Application - a powerful tool to create, publish, and manage captivating content effortlessly, driving engagement and fostering community online.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "wordpress",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://mcommercehub.com/",
+  // }
 
 ];
 
