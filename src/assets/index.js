@@ -26,14 +26,15 @@ import Bootstrap from "./tech/bootstrap.png";
 import Jest from "./tech/jest.png";
 import Firebase from "./tech/firebase.png";
 
-
 import meta from "./company/meta.png";
+import zeptik from "./company/zeptik.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Freelancer from "./company/freelancer.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import foodDelivery from "./fooddelivery.png";
 import tripguide from "./tripguide.png";
 import FoodieExpress from "./FoodieExpress.png";
 import CinemaFlixGemini from "./CinemaFlixGemini.png";
@@ -41,8 +42,10 @@ import StreamMaster from "./StreamMaster.png";
 import SecureVault from "./SecureVault.png";
 import PyGameSuite from "./PyGameSuite.png";
 import DjangoMart from "./DjangoMart.png";
-
-
+import docs from "./docs.png";
+import fooddelivery from "./fooddelivery.png";
+import chatapp from "./chatapp.png";
+import usglobal from "./usglobal.png";
 
 export {
   logo,
@@ -57,31 +60,37 @@ export {
   c,
   photoshop,
   git,
-  dsa,
-  redux,
   html,
   javascript,
   mysql,
-  Firebase,
-  Jest,
-  Bootstrap,
   nodejs,
   reactjs,
   wordpress,
   tailwind,
   python,
   nextjs,
+  dsa,
+  redux,
+  Bootstrap,
+  Jest,
+  Firebase,
   meta,
+  zeptik,
   shopify,
   starbucks,
   tesla,
+  Freelancer,
   carrent,
-  jobit,
+  foodDelivery,
   tripguide,
   FoodieExpress,
   CinemaFlixGemini,
   StreamMaster,
-  DjangoMart,
   SecureVault,
-  PyGameSuite
+  PyGameSuite,
+  DjangoMart,
+  docs,
+  fooddelivery, // Keep only one occurrence
+  chatapp,
+  usglobal
 };

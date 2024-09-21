@@ -11,15 +11,19 @@ import {
   wordpress,
   tailwind,
   mysql,
+  zeptik,
   git,
   photoshop,
+  fooddelivery,
+  docs,
+  chatapp,
   c,
   meta,
   tesla,
   shopify,
   carrent,
-  jobit,
   tripguide,
+  usglobal,
   nextjs,
   FoodieExpress,
   CinemaFlixGemini,
@@ -30,7 +34,8 @@ import {
   redux,
   Firebase,
   Jest,
-  Bootstrap
+  Bootstrap,
+  Freelancer
 
 } from "../assets";
 
@@ -130,6 +135,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Engineer",
+    company_name: "Zeptik",
+    icon: zeptik,
+    iconBg: "#383E56",
+    date: "August 2024 - - Present",
+    points: [
+      "Developed and contributed to a web platform similar to OLX for buying and selling second-hand items using Next.js and TailwindCSS, enhancing myunderstanding of front-end development.",
+      "Gained hands-on experience with React Native, building a mobile app version of the platform, and worked with Docker and Kubernetes for containerization and deployment.",
+      "Improved project management skills by working with tools like Jira and Notion, ensuring smooth collaboration and task tracking across the team.",
+      "Learned to use additional tools like Ngrok for secure tunneling and integration, improving app testing and development processes."
+    ],
+  },
+
+
+
+  {
     title: "Frontend Trainer",
     company_name: "Credible Academy",
     icon: meta,
@@ -168,7 +189,7 @@ const experiences = [
   {
     title: "Freelencer",
     company_name: "Self Employed",
-    icon: meta,
+    icon: Freelancer,
     iconBg: "#E6DEDD",
     date: "Ongoing",
     points: [
@@ -248,12 +269,12 @@ const projects = [
       },
     ],
     image: CinemaFlixGemini, // Assuming you have the image saved and imported as cinemaFlixGeminiImage
-    source_code_link: "https://netflixgpt-17f5b.web.app/",
+    source_code_link: "https://geminiflix.pages.dev/",
   },
   {
     name: "FoodieExpress",
     description:
-      "A Swiggy clone with its features, offering a seamless and optimized food delivery experience with advanced functionalities and a responsive design.",
+      "A Swiggy clone with its features, offering a seamless and optimized food delivery experience with advanced functionalities and a responsive design. You need to activate CORS to see this in action, use cors extension in you browsers.",
     tags: [
       {
         name: "ReactJs",
@@ -270,28 +291,81 @@ const projects = [
     ],
     image: FoodieExpress,
     source_code_link: "https://foodieexpress-abfbe.web.app/",
-  },
+  }
+]
+
+
+export const projects3 = [
   {
-    name: "Wood Management Software",
+    name: "Docs",
     description:
-      "Streamline forestry operations with efficient resource management, inventory tracking, and sustainable practices for optimized productivity and environmental stewardship.",
+      "A YouTube clone with advanced features, including efficient state management, responsive design, and deployment on Google Firebase.",
     tags: [
       {
-        name: "python",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "tkinter",
+        name: "React-Redux",
         color: "green-text-gradient",
       },
       {
-        name: "sqlite3",
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer-Motion",
+        color: "green-text-gradient",
+      },
+    ],
+    image: docs, // Assuming you have the image saved and imported as streamMasterImage
+    source_code_link: "https://docs-429cd.web.app/",
+  },
+  {
+    name: "VSell Food Delivery",
+    description:
+      "A Netflix clone with AI features, offering personalized movie recommendations, secure user authentication, and a modern responsive UI.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/cyberlyadnan",
+    image: fooddelivery, // Assuming you have the image saved and imported as cinemaFlixGeminiImage
+    source_code_link: "https://grocerystore-9fa87.web.app/Shop",
   },
+  {
+    name: "ChatterBox",
+    description:
+      "A Swiggy clone with its features, offering a seamless and optimized food delivery experience with advanced functionalities and a responsive design. You need to activate CORS to see this in action, use cors extension in you browsers.",
+    tags: [
+      {
+        name: "ReactJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SocketIo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "realtime-data",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatapp,
+    source_code_link: "https://chatterbox-ee0ba.web.app/",
+  }
+]
+
+export const projects1 = [
   
   {
     name: "DjangoMart",
@@ -315,6 +389,27 @@ const projects = [
     source_code_link: "https://github.com/cyberlyadnan/Ecommerce-With-Blog-In-Django",
   },
   {
+    name: "Wood Management Software",
+    description:
+      "Streamline forestry operations with efficient resource management, inventory tracking, and sustainable practices for optimized productivity and environmental stewardship.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tkinter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sqlite3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/cyberlyadnan",
+  },
+  {
     name: "PyGame Suite",
     description:
       "A suite of games developed using Python and Tkinter, providing an engaging and interactive gaming experience with easy-to-use interfaces.",
@@ -330,7 +425,9 @@ const projects = [
     ],
     image: PyGameSuite,
     source_code_link: "https://github.com/cyberlyadnan/Snake-Game",
-  },
+  }
+]
+export const projects2 = [
   {
     name: "SecureVault",
     description:
@@ -348,48 +445,48 @@ const projects = [
     image: SecureVault,
     source_code_link: "https://github.com/cyberlyadnan/Password-Manager",
   },
-  // {
-  //   name: "Learning Management System",
-  //   description:
-  //     "A comprehensive platform designed to streamline training, enhance knowledge retention, and track progress effectively. With intuitive features for course creation, assessment, and analytics, it's the ideal solution for modern learning needs.",
-  //   tags: [
-  //     {
-  //       name: "wordpress",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "html",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: jobit,
-  //   source_code_link: "http://usaglobaleducation.com/",
-  // },
-  // {
-  //   name: "Blog Web Application",
-  //   description:
-  //     "Experience our Blog Web Application - a powerful tool to create, publish, and manage captivating content effortlessly, driving engagement and fostering community online.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "wordpress",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://mcommercehub.com/",
-  // }
+  {
+    name: "Learning Management System",
+    description:
+      "A comprehensive platform designed to streamline training, enhance knowledge retention, and track progress effectively. With intuitive features for course creation, assessment, and analytics, it's the ideal solution for modern learning needs.",
+    tags: [
+      {
+        name: "wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: usglobal,
+    source_code_link: "http://usaglobaleducation.com/",
+  },
+  {
+    name: "Blog Web Application",
+    description:
+      "Experience our Blog Web Application - a powerful tool to create, publish, and manage captivating content effortlessly, driving engagement and fostering community online.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://mcommercehub.com/",
+  }
 
 ];
 

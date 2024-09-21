@@ -47,37 +47,37 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]"
       >
-        <ul>
-          <li>
+        {/* <ul>
+          <li> */}
           • Frontend Software Engineer with expertise in HTML, CSS, JavaScript,
             React.js, and related technologies.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Experienced Trainer at Credible Academy and Institute of Skills and
             Rural Development, enhancing student engagement and knowledge
             retention.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Freelancer delivering numerous WordPress websites, including LMS,
             blogs, eCommerce, and news sites.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Developer of custom software solutions, such as wood management
             software in Python, streamlining client operations.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Proven Problem Solver with a focus on delivering high-quality,
             scalable web applications.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Strong Project Management Skills demonstrated through successful
             project completions and positive client feedback.
-          </li>
-          <li>
+          {/* </li>
+          <li> */}
           • Continuous Learner staying updated with the latest trends and
             technologies in frontend development.
-          </li>
-        </ul>
+          {/* </li>
+        </ul> */}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
